@@ -1,0 +1,14 @@
+{
+  "name": "test-api-planet",
+  "version": "1.0.0",
+  "description": "Planet API test for use on TVI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tharles de Sousa Andrade",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
