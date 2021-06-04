@@ -63,7 +63,7 @@ class SideBar extends React.Component {
   }
 
   getBasemaps = async () => {  
-    const response = await axios.get('https://api.planet.com/basemaps/v1/mosaics?api_key=d6f957677fbf40579a90fb3a9c74be1a');  
+    const response = await axios.get('https://api.planet.com/basemaps/v1/mosaics?api_key=');  
     const data = response.data;
     let mosaics = data.mosaics;
 
