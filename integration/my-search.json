@@ -1,0 +1,23 @@
+{
+  "type": "AndFilter",
+  "config": [
+    {
+      "field_name": "cloud_cover",
+      "type": "RangeFilter",
+      "config": {
+        "lt": 0.1
+      }
+    },
+    {
+      "field_name": "geometry",
+      "type": "GeometryFilter",
+      "config": {
+        "type": "Point",
+        "coordinates": [
+          -50.2980651465424,
+          -26.292295977488013
+        ]
+      }
+    }
+  ]
+}

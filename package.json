@@ -4,11 +4,14 @@
   "description": "Planet API test for use on TVI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PL_API_KEY=d6f957677fbf40579a90fb3a9c74be1a nodemon --inspect app.js"
   },
   "author": "Tharles de Sousa Andrade",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "@planet/client": "^3.2.1",
+    "express": "^4.17.1",
+    "python-shell": "^3.0.0"
   }
 }
